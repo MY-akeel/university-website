@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+<section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2026</h1>
+</section>
+
+<!------------ blog page content ---->
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2>Our Certificate & Online Programs For 2026</h2>
+            <p>At the University of London, our global student community is a vibrant 
+            tapestry woven from diverse backgrounds, distinct cultures, and unique 
+            learning paths. Whether you are balancing your studies with a full-time career 
+            as an independent learner or thriving in a classroom at one of our worldwide 
+            Recognised Teaching Centres, your unique journey has the power to inspire others. 
+            We believe that every student's story deserves a stage, and our blogging platform 
+            is designed to give you exactly that.</p>
+            <br>
+            <p>By joining our team of student bloggers, you have the unique
+            opportunity to share your authentic experiences, time-management
+            triumphs, and cultural perspectives with peers across more than 190
+            countries. You can write about the realities of exam preparation, the
+            art of balancing life and text books, or how your local environment 
+            shapes your academic journey. This isn't about presenting a picture-perfect
+            student life; it's about sharing the real, relatable moments that define the
+            modern educational experience.</p>
+            <br>
+            <p>Beyond helping others, becoming a digital storyteller offers immense
+            personal and professional rewards. You will actively sharpen your 
+            communication skills, build a compelling portfolio of published content, 
+            and enhance your CV with highly sought-after digital media experience. 
+            It is a powerful way to stand out to future employers while collaborating
+            with a creative network of fellow student writers from all corners of the globe.</p>
+            <br>
+            <p>You don't need to be a professional writer to make an impact—you just need a
+            passion for learning and a willingness to share your voice. If you are ready to
+            inspire prospective students, connect with a worldwide peer network, and leave a
+            lasting legacy, we want to hear from you. Explore our submission guidelines today 
+            and take the first step toward sharing your University of London journey with the world.</p>
+        <div class="comment-box">
+
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter Email">
+                <textarea rows="5" placeholder="Your comment">
+                </textarea>
+                <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+        </div>
+        
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>30</span>
+            </div>
+            <div>
+                <span>Art</span>
+                <span>26</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!------------ Footer ----------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Pellentesque aliquet turpis nulla, eleifend faucibus est<br>
+    sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa-regular fa-heart"></i> by Easy Tutorials</p>
+</section>
+
+
+<!---------JavaScript for Toggle Menu----------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
